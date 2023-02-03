@@ -121,7 +121,7 @@ class bot {
 
     async nfts() {
 		try {
-        let tempid = "19552"
+        let tempid = "56039"
         let wax = document.getElementById('text-wax').innerHTML
         let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
@@ -144,7 +144,7 @@ class bot {
 
     async nfts1() {
 		try {
-        let tempid = "19558"
+        let tempid = "48154"
         let wax = document.getElementById('text-wax').innerHTML
         let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
