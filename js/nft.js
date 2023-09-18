@@ -123,7 +123,7 @@ class bot {
 		try {
         let tempid = "48153"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -146,7 +146,7 @@ class bot {
 		try {
         let tempid = "48159"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -169,7 +169,7 @@ class bot {
 		try {
         let tempid = "48161"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -193,7 +193,7 @@ class bot {
 		try {
         let tempid = "48154"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -218,7 +218,7 @@ class bot {
 		try {
         let tempid = "48155"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -243,7 +243,7 @@ class bot {
 		try {
         let tempid = "48162"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -267,7 +267,7 @@ class bot {
 		try {
         let tempid = "48160"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -291,7 +291,7 @@ class bot {
 		try {
         let tempid = "48157"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -315,7 +315,7 @@ class bot {
 		try {
         let tempid = "48156"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -338,7 +338,7 @@ class bot {
 		try {
         let tempid = "48158"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -361,7 +361,7 @@ class bot {
 			try {
         let tempid = "19562"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -385,7 +385,7 @@ class bot {
 		try {
         let tempid = "19563"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -410,7 +410,7 @@ class bot {
 		try {
         let tempid = "19564"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -435,7 +435,7 @@ class bot {
 		try {
         let tempid = "19565"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -459,7 +459,7 @@ class bot {
 		try {
         let tempid = "19566"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -483,7 +483,7 @@ class bot {
 			try {
         let tempid = "19567"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -508,7 +508,7 @@ class bot {
 			try {
         let tempid = "19568"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -533,7 +533,7 @@ class bot {
 			try {
         let tempid = "19569"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -558,7 +558,7 @@ class bot {
 			try {
         let tempid = "19570"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -582,7 +582,7 @@ class bot {
 			try {
         let tempid = "19571"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -607,7 +607,7 @@ class bot {
 			try {
         let tempid = "19572"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -630,7 +630,7 @@ class bot {
 			try {
         let tempid = "19573"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -654,7 +654,7 @@ class bot {
 				try {
         let tempid = "19574"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -677,7 +677,7 @@ class bot {
 			try {
         let tempid = "19575"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -700,7 +700,7 @@ class bot {
 			try {
         let tempid = "19576"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -723,7 +723,7 @@ class bot {
 			try {
         let tempid = "19577"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -746,7 +746,7 @@ class bot {
 				try {
         let tempid = "19578"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -770,7 +770,7 @@ class bot {
 			try {
         let tempid = "19579"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -794,7 +794,7 @@ class bot {
 				try {
         let tempid = "19580"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
@@ -817,7 +817,7 @@ class bot {
 			try {
         let tempid = "19581"
         let wax = document.getElementById('text-wax').innerHTML
-        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v1/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
+        let accountDetailz = await fetch(randomatomic_api + "/atomicmarket/v2/sales?limit=1&order=asc&sort=price&state=1&template_id=" + tempid + "&collection_name=alien.worlds", { "method": "GET" })
         let accountDetail = await accountDetailz.json();
         if (accountDetail) {
             for (let token of accountDetail.data) {
